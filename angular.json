@@ -168,6 +168,72 @@
           }
         }
       }
+    },
+    "vi": {
+      "projectType": "library",
+      "root": "libs/vi",
+      "sourceRoot": "libs/vi/src",
+      "prefix": "mono-demo",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/vi"],
+          "options": {
+            "jestConfig": "libs/vi/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/vi/src/**/*.ts", "libs/vi/src/**/*.html"]
+          }
+        }
+      }
+    },
+    "wi": {
+      "projectType": "library",
+      "root": "libs/wi",
+      "sourceRoot": "libs/wi/src",
+      "prefix": "mono-demo",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/wi"],
+          "options": {
+            "jestConfig": "libs/wi/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/wi/src/**/*.ts", "libs/wi/src/**/*.html"]
+          }
+        }
+      }
+    },
+    "xi": {
+      "projectType": "library",
+      "root": "libs/xi",
+      "sourceRoot": "libs/xi/src",
+      "prefix": "mono-demo",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/xi"],
+          "options": {
+            "jestConfig": "libs/xi/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/xi/src/**/*.ts", "libs/xi/src/**/*.html"]
+          }
+        }
+      }
     }
   }
 }

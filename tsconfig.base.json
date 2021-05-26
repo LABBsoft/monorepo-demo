@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mono-demo/ui": ["libs/ui/src/index.ts"]
+      "@mono-demo/ui": ["libs/ui/src/index.ts"],
+      "@mono-demo/vi": ["libs/vi/src/index.ts"],
+      "@mono-demo/wi": ["libs/wi/src/index.ts"],
+      "@mono-demo/xi": ["libs/xi/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
